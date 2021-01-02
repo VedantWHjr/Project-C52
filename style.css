@@ -1,0 +1,40 @@
+
+
+h1{
+   
+    background-color: #afeaef;
+    display: flex;
+    justify-content: space-evenly;
+    padding:40px;
+
+}
+body{
+    background-color:#f4b7b7;
+    margin:0px;
+}
+.grid{
+    margin:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+a:link{
+    color:#d70b6d;
+    text-decoration:none;
+}
+a:visited{
+    color:#04ba68;
+    text-decoration:none;
+}
+
+item:hover img{
+    transform:scale(1.2);
+    opacity:0.6;
+    position:relative;
+}
+
+item:hover p{
+    position: absolute;
+}
+
